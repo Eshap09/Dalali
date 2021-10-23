@@ -1,0 +1,35 @@
+.login__form{
+    width:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
+   padding:0px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__heading{
+    text-align: center;
+    justify-content: center;
+    margin-top:10vh;
+    color: brown;
+    font-style: italic;
+}
+
+.login__form >form{
+    font-size: 22px;
+    margin-top: -10vh;
+}
+.login__formheading{
+    color:rgb(56, 109, 31);
+}
+
+@media screen and (max-width: 800px) {
+    .login__form{
+        width:80%;
+    }
+}

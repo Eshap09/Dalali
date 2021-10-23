@@ -1,0 +1,46 @@
+.login__form{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
+    margin-top:-10vh;
+   padding:0px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+}
+
+.login__heading{
+    text-align: center;
+    margin-top:10vh;
+    color: brown;
+    font-style: italic;
+    margin-bottom: 10vh;
+}
+
+.login__form >form{
+    font-size: 22px;
+    width: 50%;
+    padding:20px;
+    border-radius: 5%;
+    border: 2px solid peru;
+}
+.login__formheading{
+    color:rgb(56, 109, 31);
+}
+
+.btn-end{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .login__form{
+        width:80%;
+    }
+}
